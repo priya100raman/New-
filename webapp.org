@@ -1,0 +1,24 @@
+#+TITLE: Describing how a web application is built
+#+AUTHOR: Priya
+#+DATE: [2016-05-17]
+
+* Introduction
+This document describes the working of a web application. It describes
+briefly the components involved in developing a web apllication and
+how they interact with each other.
+* Web Server: Server
+A web application runs in a seperate thread on a Web server. This
+application servers the data requested by the clients by pulling it
+from the datadase.  
+* Browser : Client
+A browser runs the client side of the application and sens request to
+the server as and when it needs data. Typically the client is the
+interface for a user to interact with the web application.  
+* Database 
+Database persist the data that has been created/modified/updated by
+the client. 
+* Communication betweem Server and Client
+The web application exposes a sert of REST APIs that a client side of
+the application can use to communication with the server.
+
+ 
